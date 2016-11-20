@@ -1,0 +1,47 @@
+Huff In Class Questions
+Katrina Zhu
+
+10a. Path takes you to different roots.
+b. The two recursive calls are both to the left and the right.  Once you call the left 
+node, you add a 0 to the string. When you call the right node, you add a 1 to the string.
+c.  You could check that both myLeft and myRight are null, and that would be the base case.
+Also, if you find that the value of the node is not 0, you know you are at a leaf.
+
+11.
+private int totalCodedBits(){
+int count = 0;
+for(Integer i:myCodes.keySet()){
+count += myCodes.get(i).length;
+myFreqs[i];
+}
+return count;
+}
+
+Sorting Size
+1. It will take 400 seconds. 1000 strings will take 1 second.
+2. Roughly 16 seconds, because you are doing 4 sortings of size 2000. You are assuming that
+combing through the strings will not take time, and that we are evenly dividing the big 
+string into 4 even strings.
+3. If there is a large constant on O(nlogn), then you can use insertion sort because it'll 
+be faster for smaller numbers. Also, recursion takes extra space.
+4. If it's already mostly or all in order, you might want to use a sort like bubble sort 
+rather than merge or heap sort.
+5. It has to compare every integer with every other integer, which is not the way to go.
+6. It runs at a desired O(nlogn).  If the array passed in is already sorted, the runtime
+because O(n^2).
+7.  Mergesort = 2T(n/2) + O(n).  This gives a runtime of nlog(n).
+Complexity of a mergesort for a linked list with finding the midpoint running in O(n) time
+is still O(nlog(n)).
+8. static void rangeRestrictedSort (int [] list, int max){
+int[]bucket = new int[max];
+for(int x = 0; x<list.size; x++){
+	bucket[list[x]] = bucket[list[x]] + 1;
+}
+int index = 0;
+for(int x = 0; x<max; x++){
+	for(int y = 0; y<bucket[x]; y++){
+		list[index] = bucket[x];
+		index++;
+	}
+}
+

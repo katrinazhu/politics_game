@@ -1,0 +1,250 @@
+(*Tokyo*) 33200000
+(*New York*) 17800000
+(*Sao Paolo*) 17700000
+(*Seoul*) 17500000
+(*Mexico City*) 17400000
+(*Osaka*) 16425000
+(*Manila*) 14750000
+(*Mumbai*) 14350000
+(*Delhi*) 14300000
+(*Jakarta*) 14250000
+(*Lagos*) 13400000
+(*Kolkata*) 12700000
+(*Cairo*) 12200000
+(*Los Angeles*) 11789000
+(*Buenos Aires*) 11200000
+(*Rio de Janeiro*) 10800000
+(*Moscow*) 10500000
+(*Shanghai*) 10000000
+(*Karachi*) 9800000
+(*Paris*) 9645000
+(*Istanbul*) 9000000
+(*Nagoya*) 9000000
+(*Beijing*) 8614000
+(*Chicago*) 8308000
+(*London*) 8278000
+(*Shenzhen*) 8000000
+(*Essen*) 7350000
+(*Tehran*) 7250000
+(*Bogota*) 7000000
+(*Lima*) 7000000
+(*Bangkok*) 6500000
+(*Johannesburg*) 6000000
+(*Chennai*) 5950000
+(*Taipei*) 5700000
+(*Baghdad*) 5500000
+(*Santiago*) 5425000
+(*Bangalore*) 5400000
+(*Hyderabad*) 5300000
+(*St. Petersburg*) 5300000
+(*Philadelphia*) 5149000
+(*Lahore*) 5100000
+(*Kinshasa*) 5000000
+(*Miami*) 4919000
+(*Ho Chi Minh City*) 4900000
+(*Madrid*) 4900000
+(*Tianjin*) 4750000
+(*Kuala Lumpur*) 4400000
+(*Toronto*) 4367000
+(*Milan*) 4250000
+(*Shenyang*) 4200000
+(*Dallas*) 4146000
+(*Boston*) 4032000
+(*Belo Horizonte*) 4000000
+(*Khartoum*) 4000000
+(*Riyadh*) 4000000
+(*Singapore*) 4000000
+(*Washington*) 3934000
+(*Detroit*) 3903000
+(*Barcelona*) 3900000
+(*Houston*) 3823000
+(*Athens*) 3685000
+(*Berlin*) 3675000
+(*Sydney*) 3502000
+(*Atlanta*) 3500000
+(*Guadalajara*) 3500000
+(*San Francisco*) 3229000
+(*Montreal*) 3216000
+(*Monterey*) 3200000
+(*Melbourne*) 3162000
+(*Ankara*) 3100000
+(*Recife*) 3025000
+(*Phoenix*) 2907000
+(*Durban*) 2900000
+(*Porto Alegre*) 2800000
+(*Dalian*) 2750000
+(*Jeddah*) 2750000
+(*Seattle*) 2712000
+(*Cape Town*) 
+(*San Diego*) 2674000
+(*Fortaleza*) 2650000
+(*Curitiba*) 2500000
+(*Rome*) 2500000
+(*Naples*) 2400000
+(*Minneapolis*) 2389000
+(*Tel Aviv*) 2300000
+(*Birmingham*) 2284000
+(*Frankfurt*) 2260000
+(*Lisbon*) 2250000
+(*Manchester*) 2245000
+(*San Juan*) 2217000
+(*Katowice*) 2200000
+(*Tash Kent*) 2200000
+(*Fukuoka*) 2150000
+(*Baku*) 2100000
+(*St. Louis*) 2078000
+(*Baltimore*) 2076000
+(*Sapporo*) 2075000
+(*Tampa*) 2062000
+(*Tai Chung*) 2000000
+(*Warsaw*) 2000000
+(*Denver*) 1985000
+(*Cologne*) 1960000
+(*Hamburg*) 1925000
+(*Dubai*) 1900000
+(*Pretoria*) 1850000
+(*Vancouver*) 1830000
+(*Beirut*) 1800000
+(*Budapest*) 1800000
+(*Cleveland*) 1787000
+(*Pittsburg*) 1753000
+(*Campinas*) 1750000
+(*Harare*) 1750000
+(*Brasilia*) 1625000
+(*Kuwait*) 1600000
+(*Munich*) 1600000
+(*Portland*) 1583000
+(*Brussels*) 1570000
+(*Vienna*) 1550000
+(*San Jose*) 1538000
+(*Damman*) 1525000
+(*Copenhagen*) 1525000
+(*Brisbane*) 1508000
+(*Riverside*) 1507000
+(*Cincinnati*) 1503000
+(*Accra*) 1500000
+(*Nizhni Novgorod*) 1500000
+(*Phnom Penh*) 1500000
+(*Quito*) 1500000
+(*Leeds*) 1499000
+(*Goiania*) 1475000
+(*Donetsk*) 1400000
+(*Stockholm*) 1400000
+(*Virginia Beach*) 1394000
+(*Sacramento*) 1393000
+(*Kansas City*) 1362000
+(*Marseille*) 1350000
+(*Turin*) 1350000
+(*Lyon*) 1349000
+(*San Antonio*) 1328000
+(*Rotterdam*) 1325000
+(*Las Vegas*) 1314000
+(*Milwaukee*) 1309000
+(*Stuttgart*) 1250000
+(*Indianapolis*) 1219000
+(*Glasgow*) 1200000
+(*Lumumbashi*) 1200000
+(*Perth*) 1177000
+(*Providence*) 1175000
+(*Orlando*) 1157000
+(*Columbus*) 1133000
+(*Dublin*) 1075000
+(*Auckland*) 1050000
+(*Lille*) 1050000
+(*Porto*) 1035000
+(*New Orleans*) 1009000
+(*Adelaide*) 1002000
+(*Helsinki*) 1000000
+(*Buffalo*) 977000
+(*Memphis*) 972000
+(*Antwerp*) 915000
+(*Austin*) 902000
+(*Port Elizabeth*) 900000
+(*Bridgeport*) 889000
+(*Nice*) 889000
+(*Salt Lake City*) 888000
+(*Jacksonville*) 882000
+(*Calgary*) 879000
+(*Louisville*) 864000
+(*Hartford*) 852000
+(*Ottawa*) 828000
+(*Richmond*) 819000
+(*Edmonton*) 782000
+(*Toulouse*) 761000
+(*Charlotte*) 759000
+(*Bordeaux*) 754000
+(*Nashville*) 750000
+(*Oklahoma City*) 747000
+(*Tucson*) 720000
+(*Honolulu*) 718000
+(*Dayton*) 703000
+(*Rochester*) 694000
+(*El Paso*) 675000
+(*Birmingham*) 664000
+(*Quebec*) 635000
+(*Omaha*) 627000
+(*Winnipeg*) 627000
+(*Vereeniging*) 600000
+(*Albuquerque*) 598000
+(*Aachen*) 585000
+(*Allentown*) 576000
+(*Springfield*) 574000
+(*Akron*) 570000
+(*Albany*) 559000
+(*Sarasota*) 559000
+(*Tulsa*) 558000
+(*Concord*) 553000
+(*Abu Dhabi*) 550000
+(*Nantes*) 545000
+(*Raleigh*) 542000
+(*Grand Rapids*) 539000
+(*New Haven*) 531000
+(*McAllen*) 523000
+(*Toulon*) 520000
+(*Douai/Lens*) 519000
+(*Toledo*) 503000
+(*Baton Rouge*) 479000
+(*Colorado Springs*) 466000
+(*Worcester*) 430000
+(*Charleston*) 423000
+(*Gold Coast*) 422000
+(*Wichita*) 422000
+(*Columbia*) 421000
+(*Knoxville*) 420000
+(*Ogden*) 418000
+(*Youngstown*) 417000
+(*Syracuse*) 402000
+(*Palm Bay*) 393000
+(*Scranton*) 385000
+(*Flint*) 365000
+(*Harrisburg*) 363000
+(*Little Rock*) 360000
+(*Valenciennes*) 357000
+(*Poughkeepsie*) 352000
+(*Chattanooga*) 344000
+(*Augusta*) 336000
+(*Spokane*) 335000
+(*Cape Coral*) 330000
+(*Lancaster*) 324000
+(*Pensacola*) 324000
+(*Mobile*) 318000
+(*Greenville*) 302000
+(*St. Catharines*) 300000
+(*Aguadilla*) 299000
+(*Winston*) 299000
+(*Tours*) 298000
+(*Jackson*) 293000
+(*Durham*) 288000
+(*Fayetteville*) 276000
+(*South Bend*) 276000
+(*Shreveport*) 275000
+(*Port St. Lucie*) 271000
+(*Canton*) 267000
+(*Bethune*) 259000
+(*Avignon*) 254000
+(*Barnstable Town*) 244000
+(*Asheville*) 222000
+(*Bonita Springs*) 221000
+(*Huntsville*) 213000
+(*Hickory*) 188000
+(*Pau*) 181000

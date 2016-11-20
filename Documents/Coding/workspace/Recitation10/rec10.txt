@@ -1,0 +1,122 @@
+Rec10
+Name: Katrina Zhu
+Net ID: kz37
+
+1.
+Public static int fruitCounter(ListNode list){
+	Int count = 0;
+	While(list!=null){
+		If(isFruit(list.info))
+			Count++;
+		List=list.next;
+	}
+	return count;
+}
+
+public static int fruitCounter(ListNode list){
+	if(list ==null){
+		return 0;
+if(isFruit(list.info))
+		return 1+fruitCounter(list.next);
+	return fruitCounter(list.next);
+}
+T1 = O(1)
+T(n) = T(n-1) + O(1)
+O(N)
+
+2.
+A.
+Public static Boolean hasDuplicates(ListNode list){
+	While(list!=null){
+		If(countOccurrences(list, list.info)>1)
+			Return true;
+		List=list.next;
+	}
+	return false;
+}
+public static Boolean hasDuplicates(ListNode list){
+	if(list==null)
+		return false;
+	if(countOccurrences(list, list.info)>1)
+		return true;
+	return hasDuplicates(list.next);	
+}
+
+B.
+T(1)=O(1)
+T(n) = O(n) + T(n-1)
+O(n^2)
+
+C.
+Public static Boolean hasDuplicates(ListNode list){
+	HashSet<String> a = new HashSet<String>();
+	While(list!=null){
+		If(a.contains(list.info))
+			Return true;
+		a.add(list.info);
+		List=list.next;
+	}
+	return false;
+}
+Runtime is O(N) because you iterate through the list once, and a.contains and a.add have a runtime of O(1)
+
+3.
+public static boolean isIsomorphic(TreeNode s, TreeNode t) {
+if(s==null && t!=null)
+	return false;
+if(s!=null && t==null)
+	return false;
+if(s==null && t==null)
+	return true;
+if (isIsomorphic(s.left, t.left)&&isIsomorphic(s.right, t.right))
+	return true;
+return false;
+ }
+
+A. 
+public static boolean isQuasiIsomorphic(TreeNode s, TreeNode t) {
+if(s==null && t!=null)
+	return false;
+if(s!=null && t==null)
+	return false;
+if(s==null && t==null)
+	return true;
+if ((isQuasiIsomorphic(s.left, t.left)&&isQuasiIsomorphic(s.right, t.right))||(isQuasiIsomorphic(s.left, t.right)&&isQuasiIsomorphic(s.right, t.left)))
+	return true;
+return false;
+ }
+ 
+4.
+A. 
+T1 = O(1)
+The base case, returning null or returning me, will have a runtime O(1)
+T(N) = T(N/2) + O(1)
+The runtime of T(N) is T(N/2) because it's calling the method recursively on only the right half of the tree
+so
+O(nlog(n))
+
+B.
+The recursive method works because first it sets me to be a list of all the right nodes.
+Then, it iterates through the left nodes and calls all the right nodes of these left nodes and adds them to the list.
+T1 = O(1)
+The base case is just returning the list, so it'll have a runtime of O(1)
+T(N) = T(N-1) + O(1)
+The method eventually iterates through all the elements of the tree, first the right nodes and then the right nodes of the left nodes.
+so the runtime is
+O(n)
+
+5.
+A.
+Recurrence relation: 
+T1 = O(1)
+T(N) = T(N/1) + O(1)
+so the runtime is 
+O(log(n))
+
+B.
+Worst case is if all N elements are on one side, and the element we are trying to find is the last one
+T1 = O(1) <--base case
+If this is the case, we would have to call the recursive method N times before finding the kth element, so
+T(N) = T(N-1) + O(1)
+so the runtime is
+O(n)

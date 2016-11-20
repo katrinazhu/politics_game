@@ -1,0 +1,9 @@
+Name: Katrina Zhu
+net id: kz37
+Question 1:
+The integer object is used to count the number of instances of the string object.
+Question 2:
+The output is in sorted order because java automatically sorts tree maps in alphabetical order.
+Question 3:
+It's calling on "results," and results is defined to not be a specific type of map, rather just a general map by the methods getFrequencies, getWordCounts, and getLineNumbers.
+The printResults method has a question mark in the parameter; also, the toString can be called on any type of map.

@@ -1,0 +1,29 @@
+URL: http://www.citymayors.com/statistics/largest-cities-population-125.html and http://www.citymayors.com/statistics/largest-cities-population-250.html
+Description: Data listing the most populated 250 cities in the world and their approximate populations as of 2007.
+
+Tallies for first digit:
+0s:  0  (0%)
+1s:  76  (30%)
+2s:  45  (18%)
+3s:  32  (13%)
+4s:  25  (10%)
+5s:  28  (11%)
+6s:  9  (4%)
+7s:  13  (5%)
+8s:  13  (5%)
+9s:  9  (4%)
+
+Tallies for second digit:
+0s:  37  (15%)
+1s:  21  (8%)
+2s:  35  (14%)
+3s:  26  (10%)
+4s:  17  (7%)
+5s:  33  (13%)
+6s:  18  (7%)
+7s:  25  (10%)
+8s:  17  (7%)
+9s:  20  (8%)
+
+These tallies are odd because they are not very random; the first digit is often a 1; the second digit, while distributed more evenly, still has lots of variation between numbers.
+Other students' data is the same; overall, all data seems to have a general lack of randomness.
